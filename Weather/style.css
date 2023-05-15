@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainbox {
+    /* border: 2px solid #3021a2; */
+    height: 550px;
+    padding-left: 30px;
+    display: flex;
+    gap: 50px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#box1 {
+    border: 5px solid #8e81f1;
+    width: 350px;
+    /* margin: 50px; */
+    height: 500px;
+    border-radius: 15px;
+}
+
+#box2 {
+    border: 5px solid #8e81f1;
+    width: 350px;
+    /* margin: 50px; */
+    height: 500px;
+    border-radius: 15px;
+}
+
+#box3 {
+    border: 5px solid #8e81f1;
+    width: 350px;
+    /* margin: 50px; */
+    height: 500px;
+    border-radius: 15px;
+}
+
+#maindiv {
+    width: 100%;
+    height: 520px;
+    background-image: url("./weatherimages/snowfall.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+#leftside {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.cities {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 350px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* background-color: #537F8C; */
+    /* filter: blur(2px); */
+    backdrop-filter: blur(5px);
+}
+
+#hurricane {
+    margin: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.btncenter {
+    margin-left: 70px;
+}
+
+#topmarquee {
+    height: auto;
+    background-color: #19376D;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.owl-carousel {
+    background-color: #19376D;
+    padding-top: 25px;
+    padding-left: 55px;
+    /* width: 650px;  
+    margin: 250px; */
+}
+
+.owl-item {
+    background-color: #19376D;
+    margin: 0px;
+    /* height: 160px;
+    width: 180px; */
+}
+
+.city {
+    background-color: #8294C4;
+    border-radius: 10px;
+    height: 160px;
+    width: 180px;
+    padding: 10px;
+}
